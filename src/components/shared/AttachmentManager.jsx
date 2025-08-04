@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect, memo } from 'react';
-import IndexedDBManager from './IndexedDBManager';
-import './AttachmentManager.css';
+import IndexedDBManager from '../../utils/IndexedDBManager';
+import '../../styles/AttachmentManager.css';
 
 const AttachmentManager = memo(({ vendorId, qmsId, onAttachmentsChange }) => {
     const [attachments, setAttachments] = useState([]);

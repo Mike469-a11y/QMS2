@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './AdminPanel.css';
+import '../../styles/AdminPanel.css';
 
 const AdminPanel = () => {
     const [qmsData, setQmsData] = useState([]);

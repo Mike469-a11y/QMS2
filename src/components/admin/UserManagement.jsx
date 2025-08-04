@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AddUser from './AddUser';
-import './UserManagement.css';
+import '../../styles/UserManagement.css';
 
 const UserManagement = () => {
   const [users, setUsers] = useState([]);
