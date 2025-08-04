@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Sourcing.css';
+import '../../styles/Sourcing.css';
 
 const Sourcing = () => {
     const [sourcingEntries, setSourcingEntries] = useState([]);
@@ -488,7 +488,7 @@ const Sourcing = () => {
                             <optgroup label="Due Date Status">
                                 <option value="overdue">Overdue</option>
                                 <option value="due-soon">Due Soon (≤7 days)</option>
-                                <option value="active">Active (>7 days)</option>
+                                <option value="active">Active (&gt;7 days)</option>
                             </optgroup>
                         </select>
                     </div>
