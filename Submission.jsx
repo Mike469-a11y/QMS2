@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import IndexedDBManager from './utils/IndexedDBManager';
+import IndexedDBManager from './IndexedDBManager';
 import './Submission.css';
 
 const Submission = () => {

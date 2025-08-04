@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from
 import Qms from "./Qms";
 import Assignment from "./Assignment";
 import QmsDetailsPage from "./QmsDetailsPage";
-import AdminPanel from "./components/admin/AdminPanel";
-import UserManagement from "./components/admin/UserManagement";
-import AddUser from "./components/admin/AddUser";
-import PerformanceTracking from "./components/admin/PerformanceTracking";
+import AdminPanel from "./AdminPanel";
+import UserManagement from "./UserManagement";
+import AddUser from "./AddUser";
+import PerformanceTracking from "./PerformanceTracking";
 import Approval from "./Approval";
 import SubmittedData from "./SubmittedData";
 import Sourcing from "./Sourcing";

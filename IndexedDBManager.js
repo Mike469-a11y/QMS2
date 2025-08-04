@@ -142,4 +142,4 @@ class IndexedDBManager {
     }
 }
 
-export default new IndexedDBManager();z
+export default new IndexedDBManager();

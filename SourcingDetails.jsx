@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import AttachmentManager from './AttachmentManager';
-import IndexedDBManager from './utils/IndexedDBManager';
+import IndexedDBManager from './IndexedDBManager';
 import './SourcingDetails.css';
 
 // Memoized Vendor Form Component for Performance
